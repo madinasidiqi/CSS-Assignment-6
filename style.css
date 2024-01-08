@@ -1,0 +1,94 @@
+
+#header{
+    height: 60px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 10px;
+}
+#header ul li {
+    display: inline;
+    padding: 0 15px;
+}
+ul{
+    margin-left: -15px;
+}
+#header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.Logo {
+    float: left;
+    height: 60px; width: 60px;
+    transition: transform 0.3s ease; 
+}
+.Logo:hover {
+    transform: scale(1.5);
+}
+
+.Buttons{
+    float: right;
+    margin-top: -30px;
+}
+.main{
+    background-image:url("bac.jpg");
+    text-align: center;
+}
+#mainTitle{
+    color:blue;
+}
+.footer{
+    clear: both;
+    background-color: teal;
+    min-height: 40px;
+}
+.footer ul li {
+    display: inline;
+    padding-left: 15px; 
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.Iconsf{
+    color:blue;}
+.Iconst{
+    color: deepskyblue;}
+.Iconsi{
+    color: palevioletred;}
+.number{
+    color: white;
+    padding-right: 15px;
+}
+p{
+    font-size: large;  
+}
+.menu li :hover {color:brown !important;}
+.transition{
+    font-size:x-large  !important;
+    transition: transform 0.3s ease; 
+}
+.transition:hover{
+    transform: scale(1.5);
+}
+#tbl{
+    width: 40%;
+    margin: 0 auto;
+    font-size: large;
+    border: 2px solid black;
+
+}
+#tbl th , #tbl td{
+    border: 1px solid black;
+}
+#tbl th{
+    background-color: tan;
+}
+#tbl tbody tr:nth-child(even){
+    background-color: lightblue;
+}
+    
+
