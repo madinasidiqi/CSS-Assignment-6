@@ -2,13 +2,8 @@
 #header{
     height: 60px;
     background-color: teal;
-    text-align: center;
-    padding-top: 10px;
 }
-#header ul li {
-    display: inline;
-    padding: 0 15px;
-}
+
 ul{
     margin-left: -15px;
 }
@@ -33,6 +28,7 @@ ul{
     background-image:url("bac.jpg");
     text-align: center;
 }
+
 #mainTitle{
     color:blue;
 }
@@ -90,5 +86,62 @@ p{
 #tbl tbody tr:nth-child(even){
     background-color: lightblue;
 }
+
+
+@media only screen and  (max-width: 1200px) {
+   .divimg {  width:500px !important}
+    #header ul li {
+        display: inline;
+        padding: 0 15px;
+    }
+    #vid { width: 400px;}
+
+    #header{
+        text-align: center;
+        padding-top: 10px;
+    }
+    #iconTD{ text-align: center;}
+}
+
+@media only screen and (max-width: 992px) {
+    .divimg {  width:300px !important}
+    #header ul li {
+        display: inline;
+        padding: 0 15px;
+    }
+    #vid { width: 400px;}
+    #header{
+        text-align: center;
+        padding-top: 10px;
+    }
+    #iconTD{ text-align: center;}
+}
+
+@media only screen and (max-width: 768px) {
+    .divimg {  width:200px !important}
+    #header ul li { display: block; }
+    #header { height: 100px;}
+    #vid { width: 200px;}
+    #header{
+        text-align: left;
+        padding-top: 0px;
+    }
+    #FooterTD{display: none;}
+    #iconTD{ text-align: left;}
+}
+@media only screen and (max-width: 576px) {
+    .divimg {  width:100% !important}
+    #header ul li {display: block;}
+    #header {height: 100px;}
+    #vid { width: 100% ;}
+    #header{
+        text-align: left;
+        padding-top: 0px;
+    }
+    #FooterTD{display: none;}
+    #iconTD{ text-align: left;}
+}
+
+
     
 
